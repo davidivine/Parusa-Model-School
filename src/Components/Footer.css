@@ -1,0 +1,108 @@
+.footer{
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 40vh;
+    padding: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.last-f{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.address{
+    padding: 3rem;
+}
+
+.add-line{
+    display: flex;
+    justify-content: start;
+    margin-top: 1rem;
+}
+
+.add-line p{
+    margin-left: 10px;
+    font-size: 1.3rem;
+}
+
+.footer-about{
+    padding: 3rem;
+}
+
+.footer-about h2{
+    margin-bottom: 1rem;
+}
+
+.footer-about p{
+    line-height: 1.2;
+}
+
+.footer-icon{
+    margin-top: 1rem;
+}
+
+.instagram{
+    margin: 0 1rem;
+}
+
+.tiktok{
+    margin: 0 1rem;
+}
+
+@media(max-width : 668px) {
+    .last-f{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer{
+        height: auto;
+        padding: 2rem;
+    }
+
+    .footer-about{
+        padding: 1rem;
+        height: 30vh;
+    }
+
+    .address{
+        padding: 1rem;
+        height: 30vh;
+    }
+}
+@media(max-width : 300px) {
+
+    .footer-about{
+        text-align: center;
+        height: 40vh;
+    }
+
+    .address{
+        text-align: center;
+        height: 20vh;
+    }
+
+    .footer{
+        padding: 0rem;
+    }
+
+    .add-line p{
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+
+    .footer-about p{
+        font-size: 1rem;
+    }
+
+    .address{
+        height: 20vh;
+    }
+
+    .footer-about{
+        height: 40vh;
+    }
+}
+
+
